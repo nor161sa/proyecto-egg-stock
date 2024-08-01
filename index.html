@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granja Villa Juli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #58f060;
+            margin: 0;
+        }
+      
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            margin-bottom: 1em;
+        }
+        .title {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+        .sub-title {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+            color: #333; 
+        }
+        .auth-box {
+            margin-bottom: 1em;
+            padding: 1em;
+            border: 1px solid #cccccc13;
+            border-radius: 5px;
+        }
+        .input-field {
+            display: block;
+            width: 100%;
+            padding: 0.7em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .button {
+            padding: 0.7em 2em;
+            background-color: #eb1616;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="imagenes/logo granja huevos 2.png" class="logo" alt="Logo de Granja Villa Juli">
+        <div class="title">Granja Villa Juli</div>
+        <div class="auth-box">
+            <div class="sub-title">Autenticación</div>
+            <div class="input-field">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="input-field">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password">
+            <a href="#" class="forgot-password">Olvidó su contraseña?</a>
+            <div>
+                  
+                <button class="button">Ingresar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

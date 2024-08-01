@@ -1,0 +1,94 @@
+body {
+        font-family: 'Times New Roman', Times, serif,;
+        background-image: url('../imagenes/imagen\ de\ fondo.jpg'); /* Ruta de la imagen */
+        background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: center center; /* Centra la imagen */
+        height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+        margin: 0;
+    }
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1em;
+}
+.button {
+    padding: 0.7em 2em;
+    background-color: #eb1616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 2em;
+    color: #131313;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 4px rgba(19, 18, 18, 0.918);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sub-title{
+    font-size: 1.5em !important;
+    color: #131313e1 !important;
+    margin-bottom: 1em !important;
+    text-shadow: 2px 2px 4px rgba(43, 179, 38, 0.418) !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+.auth-box {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field {
+    display: block;
+    color: #241268;
+    text-shadow: #131313;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-field input {
+    font-family: 'Times New Roman', Times, serif !important; /* Fuente para los campos de entrada */
+    font-size: 1em; /* Tamaño de la fuente para los campos de entrada */
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 0.7em 2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+a.forgot-password {
+    display: block; /* Esto hace que el enlace ocupe todo el ancho disponible y tenga un margen inferior */
+    margin-bottom: 1.5em; /* Ajusta este valor para aumentar o disminuir el espacio */
+}
